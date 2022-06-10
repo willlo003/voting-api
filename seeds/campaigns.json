@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Best Football Player",
+    "start_date": "2022-04-01T00:00:00.000Z",
+    "end_date": "2020-07-30T23:59:59.999Z"
+  },
+  {
+    "name": "Best Basketball Player",
+    "start_date": "2022-04-01T00:00:00.000Z",
+    "end_date": "2020-07-30T23:59:59.999Z"
+  },
+  {
+    "name": "Best Baseball Player",
+    "start_date": "2022-04-01T00:00:00.000Z",
+    "end_date": "2020-04-30T23:59:59.999Z"
+  }
+]

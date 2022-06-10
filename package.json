@@ -1,0 +1,26 @@
+{
+  "name": "voting-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "serverless-dotenv-plugin": "^4.0.1",
+    "serverless-offline": "^8.8.0"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "knex": "^2.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "uuid": "^8.3.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./jest-preload-env.js"
+    ]
+  },
+  "scripts": {
+    "test": "NODE_ENV=test jest --coverage --forceExit"
+  }
+}

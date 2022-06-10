@@ -1,0 +1,35 @@
+service: voting-api
+
+useDotenv: true
+
+package:
+  individually: true
+
+custom:
+  prune:
+    automatic: true
+    number: 3
+  bundle:
+    packager: yarn
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-east-1
+  httpApi:
+    cors: true
+  stage: dev
+
+plugins:
+  - serverless-offline
+
+functions:
+  helloWorld:
+    handler: functions/get.handler
+    events:
+      - http:
+          path: get
+          method: get
+          cors: true
