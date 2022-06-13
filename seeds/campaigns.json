@@ -1,17 +1,32 @@
 [
   {
-    "name": "Best Football Player",
+    "id": 1,
+    "name": "The Footballer of 2022",
     "start_date": "2022-04-01T00:00:00.000Z",
-    "end_date": "2020-07-30T23:59:59.999Z"
+    "end_date": "2022-07-30T23:59:59.999Z"
   },
   {
-    "name": "Best Basketball Player",
+    "id": 2,
+    "name": "The Goal Keeper of 2022",
     "start_date": "2022-04-01T00:00:00.000Z",
-    "end_date": "2020-07-30T23:59:59.999Z"
+    "end_date": "2022-07-30T23:59:59.999Z"
   },
   {
-    "name": "Best Baseball Player",
+    "id": 3,
+    "name": "The Defender of 2022",
     "start_date": "2022-04-01T00:00:00.000Z",
-    "end_date": "2020-04-30T23:59:59.999Z"
+    "end_date": "2022-04-30T23:59:59.999Z"
+  },
+  {
+    "id": 4,
+    "name": "The Midfielder of 2022",
+    "start_date": "2022-04-01T00:00:00.000Z",
+    "end_date": "2022-04-30T23:59:59.999Z"
+  },
+  {
+    "id": 5,
+    "name": "The Forward of 2022",
+    "start_date": "2022-04-01T00:00:00.000Z",
+    "end_date": "2022-04-30T23:59:59.999Z"
   }
 ]

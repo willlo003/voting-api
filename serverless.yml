@@ -20,16 +20,36 @@ provider:
   region: ap-east-1
   httpApi:
     cors: true
-  stage: dev
 
 plugins:
   - serverless-offline
+  - serverless-dotenv-plugin
 
 functions:
-  helloWorld:
-    handler: functions/get.handler
+  get-campaigns:
+    handler: functions/get-campaigns.handler
     events:
       - http:
-          path: get
+          path: get-campaigns
           method: get
           cors: true
+  get-candidates:
+    handler: functions/get-candidates.handler
+    events:
+      - http:
+          path: get-candidates/{id}
+          method: get
+          cors: true
+          request:
+              parameter:
+                id: true
+  get-result:
+    handler: functions/get-result.handler
+    events:
+      - http:
+          path: get-result/{id}
+          method: get
+          cors: true
+          request:
+              parameter:
+                id: true

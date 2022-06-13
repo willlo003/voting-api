@@ -1,0 +1,108 @@
+{
+  "2001": {
+    "tc": "成功",
+    "en": "Success"
+  },
+  "4221": {
+    "type": "error",
+    "title": "",
+    "tc": "手提電話錯誤",
+    "en": "Invalid mobile number"
+  },
+  "4222": {
+    "type": "error",
+    "title": "",
+    "tc": "沒有可換領優惠券",
+    "en": "No available offer"
+  },
+  "4223": {
+    "type": "error",
+    "title": "",
+    "tc": "優惠券和用戶序號重覆",
+    "en": "Offer and user repeated"
+  },
+  "4224": {
+    "type": "error",
+    "title": "",
+    "tc": "不能重複換領優惠券",
+    "en": "Can't collect same offer twice"
+  },
+  "4225": {
+    "type": "error",
+    "title": "",
+    "tc": "沒有記錄",
+    "en": "No record"
+  },
+  "4226": {
+    "type": "error",
+    "title": "",
+    "tc": "優惠券資料錯誤",
+    "en": "Incorrect offer's information"
+  },
+  "4227": {
+    "type": "error",
+    "title": "",
+    "tc": "優惠券已經使用",
+    "en": "Offer has been used already"
+  },
+  "4001": {
+    "type": "error",
+    "title": "",
+    "tc": "發送短訊錯誤",
+    "en": "SMS unsuccessfully sent"
+  },
+  "4002": {
+    "type": "error",
+    "title": "",
+    "tc": "錯誤請求，請提供正確參數",
+    "en": "Bad request, missing parms"
+  },
+  "4011": {
+    "type": "error",
+    "title": "",
+    "tc": "OTP 認證失敗",
+    "en": "OTP verification failed"
+  },
+  "4012": {
+    "type": "error",
+    "title": "",
+    "tc": "Token 認證失敗",
+    "en": "Token verification failed"
+  },
+  "4013": {
+    "type": "error",
+    "title": "",
+    "tc": "帳號認證失敗",
+    "en": "Authenication failed"
+  },
+  "4014": {
+    "type": "error",
+    "title": "",
+    "tc": "帳號或密碼錯誤",
+    "en": "Username or password incorrect"
+  },
+  "4015": {
+    "type": "error",
+    "title": "",
+    "tc": "帳號已被停用",
+    "en": "Account has been disabled"
+  },
+  "4016": {
+    "type": "error",
+    "title": "",
+    "tc": "檔案上限為 5MB",
+    "en": "File size limit is 5MB"
+  },
+  "4017": {
+    "type": "error",
+    "title": "",
+    "tc": "檔案格式錯誤",
+    "en": "File format incorrect"
+  },
+  "5001": {
+    "type": "",
+    "title": "",
+    "tc": "",
+    "en": "Internal server error"
+  }
+}

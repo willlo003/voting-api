@@ -1,54 +1,127 @@
 [
   {
-    "campaign_name": "Best Football Player",
+    "id": 1,
+    "campaign_id": 1,
     "name": "C.Ronaldo"
   },
   {
-    "campaign_name": "Best Football Player",
+    "id": 2,
+    "campaign_id": 1,
     "name": "Neymar"
   },
   {
-    "campaign_name": "Best Football Player",
+    "id": 3,
+    "campaign_id": 1,
     "name": "L.Messi"
   },
   {
-    "campaign_name": "Best Football Player",
-    "name": "L.Ronaldo"
-  }, 
-  {
-    "campaign_name": "Best Basketball Player",
-    "name": "Stephen Curry"
+    "id": 4,
+    "campaign_id": 1,
+    "name": "R.Lewandowski"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "Lebron James"
+    "id": 5,
+    "campaign_id": 1,
+    "name": "Benzema"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "Klay Thompson"
+    "id": 6,
+    "campaign_id": 2,
+    "name": "Neuer"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "Kobe Bryant"
+    "id": 7,
+    "campaign_id": 2,
+    "name": "Alisson"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "Dwyane Wade"
+    "id": 8,
+    "campaign_id": 2,
+    "name": "Oblak"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "Kevin Durant"
+    "id": 9,
+    "campaign_id": 2,
+    "name": "Donnarumma"
   },
   {
-    "campaign_name": "Best Basketball Player",
-    "name": "KD's brother"
+    "id": 10,
+    "campaign_id": 2,
+    "name": "Courtois"
   },
   {
-    "campaign_name": "Best Baseball Player",
-    "name": "B.R.Owens"
+    "id": 11,
+    "campaign_id": 3,
+    "name": "Trent Alexander-Arnold"
   },
   {
-    "campaign_name": "Best Baseball Player",
-    "name": "B.B.R.Owens"
+    "id": 12,
+    "campaign_id": 3,
+    "name": "Kyle Walker"
+  },
+  {
+    "id": 13,
+    "campaign_id": 3,
+    "name": "Virgil van Dijk"
+  },
+  {
+    "id": 14,
+    "campaign_id": 3,
+    "name": "Ruben Dias"
+  },
+  {
+    "id": 15,
+    "campaign_id": 3,
+    "name": "Varane"
+  },
+  {
+    "id": 16,
+    "campaign_id": 4,
+    "name": "Kevin De Bruyne"
+  },
+  {
+    "id": 17,
+    "campaign_id": 4,
+    "name": "N'Golo Kanté"
+  },
+  {
+    "id": 18,
+    "campaign_id": 4,
+    "name": "Frenkie de Jong"
+  },
+  {
+    "id": 19,
+    "campaign_id": 4,
+    "name": "Bruno Fernandes"
+  },
+  {
+    "id": 20,
+    "campaign_id": 4,
+    "name": "Thiago"
+  },
+  {
+    "id": 21,
+    "campaign_id": 5,
+    "name": "C.Ronaldo"
+  },
+  {
+    "id": 22,
+    "campaign_id": 5,
+    "name": "Neymar"
+  },
+  {
+    "id": 23,
+    "campaign_id": 5,
+    "name": "L.Messi"
+  },
+  {
+    "id": 24,
+    "campaign_id": 5,
+    "name": "R.Lewandowski"
+  },
+  {
+    "id": 25,
+    "campaign_id": 5,
+    "name": "Benzema"
   }
 ]
