@@ -13,7 +13,8 @@ const handler = async () => {
   await Knex.writer.raw(`CREATE TABLE ${tableName} (
       id INT NOT NULL UNIQUE,
       campaign_id INT NOT NULL,
-      name VARCHAR(255) NOT NULL
+      name VARCHAR(255) NOT NULL,
+      img_url TEXT NOT NULL
     )`);
 
   let fakeDate = JSON.parse(await fs.readFileSync(prizePath));

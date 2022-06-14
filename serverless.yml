@@ -53,3 +53,13 @@ functions:
           request:
               parameter:
                 id: true
+  vote:
+    handler: functions/vote.handler
+    events:
+      - http:
+          path: vote
+          method: post
+          cors: true
+          request:
+              parameter:
+                id: true

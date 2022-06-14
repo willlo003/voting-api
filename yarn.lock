@@ -1683,6 +1683,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hkid@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/hkid/-/hkid-1.2.1.tgz#4f06fc44a913acc300b7712924ca18e8e4c9ea8e"
+  integrity sha512-uBxugoGq0BQvnfH88EZy2LllyffwyGxUVYzVkMSnR8nUS4A3MX9GmdXoF6eF4MtcWSaqbVz5JdBy1aLrM9JwPw==
+
 html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"

@@ -2,126 +2,151 @@
   {
     "id": 1,
     "campaign_id": 1,
-    "name": "C.Ronaldo"
+    "name": "C.Ronaldo",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50352449.png"
   },
   {
     "id": 2,
     "campaign_id": 1,
-    "name": "Neymar"
+    "name": "Neymar",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p117631383.png"
   },
   {
     "id": 3,
     "campaign_id": 1,
-    "name": "L.Messi"
+    "name": "L.Messi",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50489671.png"
   },
   {
     "id": 4,
     "campaign_id": 1,
-    "name": "R.Lewandowski"
+    "name": "R.Lewandowski",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50520193.png"
   },
   {
     "id": 5,
     "campaign_id": 1,
-    "name": "Benzema"
+    "name": "Benzema",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p117605665.png"
   },
   {
     "id": 6,
     "campaign_id": 2,
-    "name": "Neuer"
+    "name": "Neuer",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p67276359.png"
   },
   {
     "id": 7,
     "campaign_id": 2,
-    "name": "Alisson"
+    "name": "Alisson",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p67321695.png"
   },
   {
     "id": 8,
     "campaign_id": 2,
-    "name": "Oblak"
+    "name": "Oblak",
+    "img_url": "https://futhead.cursecdn.com/static/img/20/players_alt/p67309253.png"
   },
   {
     "id": 9,
     "campaign_id": 2,
-    "name": "Donnarumma"
+    "name": "Donnarumma",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50562269.png"
   },
   {
     "id": 10,
     "campaign_id": 2,
-    "name": "Courtois"
+    "name": "Courtois",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p134409847.png"
   },
   {
     "id": 11,
     "campaign_id": 3,
-    "name": "Trent Alexander-Arnold"
+    "name": "Trent Alexander-Arnold",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p84117361.png"
   },
   {
     "id": 12,
     "campaign_id": 3,
-    "name": "Kyle Walker"
+    "name": "Kyle Walker",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p84074457.png"
   },
   {
     "id": 13,
     "campaign_id": 3,
-    "name": "Virgil van Dijk"
+    "name": "Virgil van Dijk",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50535024.png"
   },
   {
     "id": 14,
     "campaign_id": 3,
-    "name": "Ruben Dias"
+    "name": "Ruben Dias",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p134457546.png"
   },
   {
     "id": 15,
     "campaign_id": 3,
-    "name": "Varane"
+    "name": "Varane",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50533183.png"
   },
   {
     "id": 16,
     "campaign_id": 4,
-    "name": "Kevin De Bruyne"
+    "name": "Kevin De Bruyne",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p67301849.png"
   },
   {
     "id": 17,
     "campaign_id": 4,
-    "name": "N'Golo Kanté"
+    "name": "N'Golo Kanté",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p67324778.png"
   },
   {
     "id": 18,
     "campaign_id": 4,
-    "name": "Frenkie de Jong"
+    "name": "Frenkie de Jong",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50560350.png"
   },
   {
     "id": 19,
     "campaign_id": 4,
-    "name": "Bruno Fernandes"
+    "name": "Bruno Fernandes",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p84098278.png"
   },
   {
     "id": 20,
     "campaign_id": 4,
-    "name": "Thiago"
+    "name": "Thiago",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p84075589.png"
   },
   {
     "id": 21,
     "campaign_id": 5,
-    "name": "C.Ronaldo"
+    "name": "C.Ronaldo",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50352449.png"
   },
   {
     "id": 22,
     "campaign_id": 5,
-    "name": "Neymar"
+    "name": "Neymar",
+    "img_url": "https://futhead.cursecdn.com/static/img/21/players_alt/p117631383.png"
   },
   {
     "id": 23,
     "campaign_id": 5,
-    "name": "L.Messi"
+    "name": "L.Messi",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50489671.png"
   },
   {
     "id": 24,
     "campaign_id": 5,
-    "name": "R.Lewandowski"
+    "name": "R.Lewandowski",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p50520193.png"
   },
   {
     "id": 25,
     "campaign_id": 5,
-    "name": "Benzema"
+    "name": "Benzema",
+    "img_url": "https://futhead.cursecdn.com/static/img/22/players_alt/p117605665.png"
   }
 ]

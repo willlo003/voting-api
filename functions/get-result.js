@@ -11,12 +11,13 @@ const handler = async (event, context) => {
 
   try {
     let result = await Knex.reader.raw(`
-      SELECT c.name, COUNT(c.name)
+      SELECT c.name, c.id, COUNT(c.name)
       FROM candidates AS c
       LEFT JOIN voting_history AS vh
       ON vh.voted_candidate_id = c.id
       WHERE c.campaign_id = ${campaignId}
-      GROUP BY c.name
+      GROUP BY c.name, c.id
+      ORDER BY COUNT(c.name) DESC
     `);
 
     let data = {

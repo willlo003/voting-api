@@ -4,7 +4,6 @@ const _get = require("lodash/get");
 
 const handler = async (event, context) => {
   let campaignId = _get(event, "pathParameters.id", null);
-
   if (!campaignId) {
     return response.handler(422, false, 4002);
   }
