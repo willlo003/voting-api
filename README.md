@@ -38,7 +38,7 @@ body: {
 }
 
 ## Run the API locally
-#### The .env.* files have been provided for running the API locally.
+#### The .env files has been provided for running the API locally.
 
 
 ### Installation
