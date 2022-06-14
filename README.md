@@ -38,6 +38,8 @@ body: {
 }
 
 ## Run the API locally
+#### The .env.* files have been provided for running the API locally.
+
 
 ### Installation
 Clone the project to your local OS

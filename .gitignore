@@ -43,7 +43,7 @@ Session.vim
 
 # env
 env.yml
-.env
+# .env
 .env.*
 
 # Jetbrains IDEs
