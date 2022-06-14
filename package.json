@@ -9,6 +9,7 @@
     "serverless-offline": "^8.8.0"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "fs-extra": "^10.1.0",
     "hkid": "^1.2.1",
     "knex": "^2.1.0",
@@ -26,6 +27,6 @@
     "test": "NODE_ENV=test jest --coverage --forceExit",
     "create-local-db": "NODE_ENV=local node -e 'require(\"./create_db/create-tables\").handler()'",
     "offline": "serverless offline --stage staging",
-    "deploy": "serverless deploy --stage staging"
+    "deploy": "serverless deploy --stage production"
   }
 }

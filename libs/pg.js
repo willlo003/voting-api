@@ -10,10 +10,11 @@ const writer = knex({
     password: process.env.PG_PASSWORD,
     database: process.env.PG_DATABASE,
   },
-  pool: {
-    min: 1,
-  },
-  acquireConnectionTimeout: 5000,
+  // pool: {
+  //   // min: 1,
+  // },
+  acquireConnectionTimeout: 60000,
+  idleTimeoutMillis: 600000,
 });
 
 const reader = knex({
@@ -25,10 +26,11 @@ const reader = knex({
     password: process.env.PG_PASSWORD,
     database: process.env.PG_DATABASE,
   },
-  pool: {
-    min: 1,
-  },
-  acquireConnectionTimeout: 5000,
+  // pool: {
+  //   // min: 1,
+  // },
+  acquireConnectionTimeout: 60000,
+  idleTimeoutMillis: 600000,
 });
 
 module.exports.Knex = { writer, reader };

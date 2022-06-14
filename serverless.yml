@@ -28,11 +28,11 @@ plugins:
 functions:
   create-tables:
     handler: create_db/create-tables.handler
-    memorySize: 256
+    memorySize: 1024
     timeout: 30
   get-campaigns:
     handler: functions/get-campaigns.handler
-    memorySize: 256
+    memorySize: 512
     timeout: 30
     events:
       - http:
@@ -41,7 +41,7 @@ functions:
           cors: true
   get-candidates:
     handler: functions/get-candidates.handler
-    memorySize: 256
+    memorySize: 512
     timeout: 30
     events:
       - http:
@@ -53,7 +53,7 @@ functions:
                 id: true
   get-result:
     handler: functions/get-result.handler
-    memorySize: 256
+    memorySize: 512
     timeout: 30
     events:
       - http:
@@ -65,7 +65,7 @@ functions:
                 id: true
   vote:
     handler: functions/vote.handler
-    memorySize: 256
+    memorySize: 512
     timeout: 30
     events:
       - http:

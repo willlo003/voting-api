@@ -12,20 +12,25 @@
 ## APIs 
 
 ### get-campaigns 
-https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+https://r6pa05op60.execute-api.ap-east-1.amazonaws.com/production/get-campaigns
+<br>
 method: get
 
 ### get-candidates
-https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+https://r6pa05op60.execute-api.ap-east-1.amazonaws.com/production/get-candidates/{id}
+<br>
 method: get
 
 ### get-results
-https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+https://r6pa05op60.execute-api.ap-east-1.amazonaws.com/production/get-result/{id}
+<br>
 method: get
 
 ### vote
-https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+https://r6pa05op60.execute-api.ap-east-1.amazonaws.com/production/vote
+<br>
 method: post
+<br>
 body: {
   "campaign_id": 1,
   "hkid": "a1234567",
@@ -38,7 +43,7 @@ body: {
 Clone the project to your local OS
 
 ``` bash
-$ git clone https://github.com/willlo003/stock-crypto.git
+$ git clone https://github.com/willlo003/voting-api.git
 ```
 
 ``` bash
@@ -46,13 +51,14 @@ $ yarn install
 ```
 
 ### Create local db (make sure postgresql installed)
+#### Connect to postgresql using terminal
 
 ``` bash
 $ CREATE DATABASE voting;
 ```
 
-
 ### Unit test
+#### cd to the project folder
 
 ``` bash
 $ yarn test
@@ -61,5 +67,5 @@ $ yarn test
 ### Run locally
 
 ``` bash
-$ sls offline
+$ yarn offline
 ```

@@ -5,6 +5,7 @@ const fs = require("fs-extra");
 const handler = async () => {
   let tableName = "campaigns";
   let prizePath = `./seeds/${tableName}.json`;
+  console.log(Knex);
 
   console.log(`start creating ${tableName} table`);
   await Knex.writer.raw(`DROP TABLE IF EXISTS ${tableName}`);
