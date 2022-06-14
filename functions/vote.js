@@ -6,12 +6,13 @@ const moment = require("moment");
 const hkidValidator = require("hkid");
 
 const handler = async (event, context) => {
+  console.log(event.body)
   let body = JSON.parse(event.body);
   let campaignId = _get(body, "campaign_id", null);
   let hkid = _get(body, "hkid", null);
   let votedCandidateId = _get(body, "voted_candidate_id", null);
 
-  console.log(body);
+  console.log("body", body);
   if (!campaignId || !hkid || !votedCandidateId) {
     return response.handler(400, false, 4002);
   }
