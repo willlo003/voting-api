@@ -39,20 +39,20 @@ body: {
 
 ## Run the API locally
 
-### Installation
+### 1, Installation
 Clone the project to your local OS
 
 ``` bash
 $ git clone https://github.com/willlo003/voting-api.git
 ```
 
-#### cd to the project folder
+#### 2, cd to the project folder
 
 ``` bash
 $ yarn install
 ```
 
-### Create .env file
+### 3, Create .env file
 
 PG_HOST=127.0.0.1
 <br>
@@ -64,19 +64,19 @@ PG_PASSWORD={{your_postgres_password}}
 <br>
 PG_DATABASE=postgres
 
-### Create local db (make sure postgresql installed)
+### 4, Create local db (make sure postgresql installed)
 
 ``` bash
 $ yarn create-local-db
 ```
 
-### Unit test
+### 5, Unit test
 
 ``` bash
 $ yarn test
 ```
 
-### Run locally
+### 6, Run locally
 
 ``` bash
 $ yarn offline
