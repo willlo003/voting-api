@@ -25,6 +25,7 @@
   "scripts": {
     "test": "NODE_ENV=test jest --coverage --forceExit",
     "create-local-db": "NODE_ENV=local node -e 'require(\"./create_db/create-tables\").handler()'",
-    "offline": "serverless offline --stage staging"
+    "offline": "serverless offline --stage staging",
+    "deploy": "serverless deploy --stage staging"
   }
 }

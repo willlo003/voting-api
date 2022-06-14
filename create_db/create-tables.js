@@ -1,4 +1,3 @@
-const { Knex } = require("../libs/pg");
 const Campaigns = require("./campaigns");
 const Candidates = require("./candidates");
 const VotingHistory = require("./voting-history");

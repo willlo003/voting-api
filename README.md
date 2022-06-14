@@ -1,4 +1,4 @@
-# Currency-Exchange-App
+# Voting-Web
 
 ## Main Feature
 
@@ -6,69 +6,60 @@
   - NodeJs
   - Javascript
   - AWS Lambda
-  - AWS CodeBuild (CI/CD)
+  - Postgresql
   - Jest
 
-## API - Get-cryptos
+## APIs 
 
-### End Point
-
+### get-campaigns 
 https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+method: get
 
-### Query Parameters
+### get-candidates
+https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+method: get
 
-exchange: string - to change the displaying currency 
+### get-results
+https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+method: get
 
-Example:
-https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos?exchange=JPY
+### vote
+https://u64cgtx0tb.execute-api.ap-east-1.amazonaws.com/dev/get-cryptos
+method: post
+body: {
+  "campaign_id": 1,
+  "hkid": "a1234567",
+  "voted_candidate_id": 1
+}
 
-### Run the API locally
+## Run the API locally
 
-#### Installation
-
+### Installation
 Clone the project to your local OS
 
 ``` bash
 $ git clone https://github.com/willlo003/stock-crypto.git
 ```
 
-Install the packages
-
 ``` bash
 $ yarn install
 ```
 
-Unit test
+### Create local db (make sure postgresql installed)
+
+``` bash
+$ CREATE DATABASE voting;
+```
+
+
+### Unit test
 
 ``` bash
 $ yarn test
 ```
 
-Run the project locally
+### Run locally
 
 ``` bash
 $ sls offline
 ```
-
-## Error Message
-
-2001 - Success
-
-4221 - Wrong Currency Code
-
-5001 - Internal server error
-
-## CI/CD - using AWS Codebuild to achieve CI/CD pipeline
-
-### pre_build
-
-- unit test to ensure the result
-
-### build
-
-- zip the repo into the zip file
-
-### post_build
-
-- update the lambda function
-

@@ -26,8 +26,14 @@ plugins:
   - serverless-dotenv-plugin
 
 functions:
+  create-tables:
+    handler: create_db/create-tables.handler
+    memorySize: 256
+    timeout: 30
   get-campaigns:
     handler: functions/get-campaigns.handler
+    memorySize: 256
+    timeout: 30
     events:
       - http:
           path: get-campaigns
@@ -35,6 +41,8 @@ functions:
           cors: true
   get-candidates:
     handler: functions/get-candidates.handler
+    memorySize: 256
+    timeout: 30
     events:
       - http:
           path: get-candidates/{id}
@@ -45,6 +53,8 @@ functions:
                 id: true
   get-result:
     handler: functions/get-result.handler
+    memorySize: 256
+    timeout: 30
     events:
       - http:
           path: get-result/{id}
@@ -55,11 +65,10 @@ functions:
                 id: true
   vote:
     handler: functions/vote.handler
+    memorySize: 256
+    timeout: 30
     events:
       - http:
           path: vote
           method: post
           cors: true
-          request:
-              parameter:
-                id: true
