@@ -55,9 +55,13 @@ $ yarn install
 ### Create .env file
 
 PG_HOST=127.0.0.1
+<br>
 PG_PORT=5432
+<br>
 PG_USER=postgres
+<br>
 PG_PASSWORD={{your_postgres_password}}
+<br>
 PG_DATABASE=postgres
 
 ### Create local db (make sure postgresql installed)
