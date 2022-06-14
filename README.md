@@ -51,10 +51,9 @@ $ yarn install
 ```
 
 ### Create local db (make sure postgresql installed)
-#### Connect to postgresql using terminal
 
 ``` bash
-$ CREATE DATABASE voting;
+$ yarn create-local-db
 ```
 
 ### Unit test
