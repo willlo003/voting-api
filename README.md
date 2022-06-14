@@ -1,4 +1,4 @@
-# Voting-Web
+# Voting-API
 
 ## Main Feature
 
@@ -6,7 +6,7 @@
   - NodeJs
   - Javascript
   - AWS Lambda
-  - Postgresql
+  - RDS Postgresql 
   - Jest
 
 ## APIs 
@@ -81,3 +81,17 @@ $ yarn test
 ``` bash
 $ yarn offline
 ```
+
+## High traffic and scalable architecture
+
+### Lambda Function
+* Increase ram size to increase execution time with similar cost
+* Automatic scalability
+
+### RDS
+* Easy to scale up
+* Read replica
+* High availability
+* Mutli-zone 
+* RDS proxy
+
