@@ -45,6 +45,7 @@ Clone the project to your local OS
 ``` bash
 $ git clone https://github.com/willlo003/voting-api.git
 ```
+#### cd to the project folder
 
 ``` bash
 $ yarn install
@@ -57,7 +58,6 @@ $ yarn create-local-db
 ```
 
 ### Unit test
-#### cd to the project folder
 
 ``` bash
 $ yarn test
